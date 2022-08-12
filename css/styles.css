@@ -1,18 +1,18 @@
 body {
     margin: 0;
     text-align: center;
-    font-family: sans-seif;
+    font-family: "Silkscreen", "Cinzel","Merriweather","Playfair Display",   sans-serif;
     
 }
 
-h1  {
+p  {
     margin-top: 0;
+    font-family: "Orbitron", sans-serif;
 }
-
-div {}
 
 .bottom-cloud {
     position:absolute;
+    left: 250px;
 
     /* left:350px;
     bottom: 300px; */
@@ -24,56 +24,35 @@ div {}
     left:100px
 }
 .top {
-height: 500px;
-width: auto;
+height: auto;
 padding-top: 100px;
+position:relative;
 background-color: #8fd2e3
 }
 .middle {
-    height: 200px;
+    /* height: 528px;
     width: auto;
     position: static;
     top: none;
-    background-color: #6bbadf
-
-
+    background-color: #6bbadf */
+padding-top: 50px;
+width:100%;
+position: absolute;
+font-family:"Cinzel", sans-serif;
 }
-/* .mountain {
-    position:relative;
-    bottom: 100px;
-} */
-.bottom {
-    height: 400px;
-    width: auto;
-    position:static;
-    background-color: #50b16d
-}
-
-.red {
-    height:100px;
-    width:600px;
-    background-color: red;
-    position:relative;
-    left: 100px;
-
+/* /* .mountain {
+    position:absolute; */
     
-}
-
-.blue {
-    height:100px;
-    width:100px;
-    background-color: blue;
+ 
+.bottom {
+    background-color:white;
     position:absolute;
-    left: 100px;
-    top: 100px;
+    bottom:20px;
+    height:auto;
+    width:auto;
+
 }
 
-.yellow {
-    height:100px;
-    width:100px;
-    background-color: yellow;
-    position: absolute;
-    top: 200px;
-    left: 200px;
-
+.intro {
+    font-family:"Cinzel", sans-serif;
 }
